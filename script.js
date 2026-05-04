@@ -1,0 +1,1 @@
+console.log("salut"+" Sarah!") //console.log() est egal a ecrit dans la console!
