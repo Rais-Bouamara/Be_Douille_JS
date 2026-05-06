@@ -121,15 +121,67 @@ else {
 let ticket = reduction(19, true, 80)
 console.log(ticket)
 
-//Exercice du feu tricolor
-let signalisation = vert
 
-if(signalisation === vert){
-    console.log("Je passe !")
-}else if (signalisation === orange){
-    console.log("Je freine !")
-}else if (signalisation === rouge){
-    console.log("Je m'arrête !")
+
+//role:
+//parametre:
+//retourne:
+//Exercice du feu tricolor
+
+/*
+function FeuTricolor(){
+let signalisation = prompt(`De quel couleur est le feu tricolor ?`)
+    if(signalisation === "vert"){
+    alert("Je passe !")
+}else if  (signalisation === "orange"){
+    alert("Je freine !")
+}else if  (signalisation === "rouge"){
+    alert("Je m'arrête !")
 }else {
-    console.log("Danger : feu défectueux !")
+    alert("Danger : feu défectueux !")
 }
+
+}
+
+let reponse = FeuTricolor();
+*/
+
+//role:
+//parametre:
+//retourne:
+//exercice bulletin de note
+
+//fonction de calcul
+function CalculMoyenneGeEleve(science,sport,chimie,anglais,dessin){
+
+    //retourner la moyenne de l'eleve
+return (science + sport + chimie + anglais + dessin)/5
+}
+
+let retourMoyenne = CalculMoyenneGeEleve(12,13,15,16,17)
+
+//fonction de commentaire
+function CommentaireAppreciation(retourMoyenne){
+    
+    if (retourMoyenne <10 && retourMoyenne <=13){
+        return "Poursuivez vos efforts"
+    }else if(retourMoyenne >13 && retourMoyenne <=15){
+        return "Bon travail "
+    }else if(retourMoyenne >15 && retourMoyenne <=17){
+        return " Bravo !"
+    }else if(retourMoyenne <17){
+        return "Félicitations ! "
+    }else{
+        return "Il faut travailler plus "};
+}
+
+let commentaire = CommentaireAppreciation(retourMoyenne)
+
+//fonction bulletin
+function BulletinComplet(moy,com){
+    
+    console.log(moy + " : " + com)
+
+}
+
+BulletinComplet(retourMoyenne,commentaire)
