@@ -185,3 +185,4 @@ function BulletinComplet(moy,com){
 }
 
 BulletinComplet(retourMoyenne,commentaire)
+
