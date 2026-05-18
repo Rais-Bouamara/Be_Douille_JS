@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "prenom": "Amelie",
+      "nom": "Martin",
+      "email": "amelie.martin@agenceweb.fr",
+      "poste": "UX/UI Designer",
+      "age": 29,
+      "image": "amelie.png"
+    },
+    {
+      "prenom": "Sandra",
+      "nom": "Dupont",
+      "email": "sandra.dupont@agenceweb.fr",
+      "poste": "Cheffe de projet web",
+      "age": 34,
+      "image": "sandra.png"
+    },
+    {
+      "prenom": "Murphy",
+      "nom": "Bernard",
+      "email": "murphy.bernard@agenceweb.fr",
+      "poste": "Développeur Full Stack",
+      "age": 31,
+      "image": "murphy.png"
+    },
+    {
+      "prenom": "Juliette",
+      "nom": "Roux",
+      "email": "juliette.roux@agenceweb.fr",
+      "poste": "Intégratrice Web",
+      "age": 26,
+      "image": "juliette.png"
+    },
+    {
+      "prenom": "Pierre",
+      "nom": "Morel",
+      "email": "pierre.morel@agenceweb.fr",
+      "poste": "Développeur Front-End",
+      "age": 28,
+      "image": "pierre.png"
+    },
+    {
+      "prenom": "Pierre",
+      "nom": "Garcia",
+      "email": "pierre.garcia@agenceweb.fr",
+      "poste": "Développeur Back-End",
+      "age": 36,
+      "image": "pierre.png"
+    },
+    {
+      "prenom": "Theo",
+      "nom": "Petit",
+      "email": "theo.petit@agenceweb.fr",
+      "poste": "Responsable SEO",
+      "age": 30,
+      "image": "theo.png"
+    }
+  ]
+}
+

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -48,3 +49,63 @@
 }
 
 .mgt200{margin-top: 200px}
+
+
+/*--------------------------------------PROFIL UTILISATEUR----------------------------------*/
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+.large60{
+    width: 60%;
+}
+.large30{
+    width: 30%;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.mgt20{
+    margin-top: 20px;
+}
+
+.gap12{
+    gap: 12px;
+}
+
+.gap33{
+    gap: 33px;
+}
+
+.card{
+    background-color: #1F6F5F;
+    color: white;
+    border-radius: 15px;
+    padding: 12px;
+    font-family: "Space Grotesk", sans-serif;
+    box-shadow: #6FCF97 6px 6px 20px;
+    border: solid #6FCF97 1.5px;
+}
+
+.br15{
+    border-radius: 15px;
+}
+
+.ml55{
+    margin-left: 55px;
+}
+
+.bdr{
+    border: solid #6FCF97 1.5px;
+}
+
+.bg-creme{
+    background-color: #FFF6DE
+}
